@@ -1,6 +1,65 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
 }
+.search{
+  width: 50%;
+  height: 2rem;
+  margin-left: 20rem;
+  text-align: center;
+}
+.postcard,.home,.commentcard,form
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+  height: 14rem;
+  width: 71rem;
+  border-radius: 5%;
+  padding: 34px;
+  margin: 40px;
+}
+.display,.card
+{    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+  width: fit-content;
+  margin: 50px;
+  padding: 13px;
+  border-radius: 4%;
+}
+
+
+.nav
+{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:black;
+ 
+}
+.link{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 12px;
+  border-radius: 31%;
+  
+
+}
+.list
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
